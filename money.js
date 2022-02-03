@@ -5,3 +5,9 @@
 
 // Input: “abcdefghijklmnopqrstuvwxyz”
 // Output: false
+
+let input = "abcdefghijklmnopqrstuvwxyz";
+
+let sym = "$";
+
+console.log(input.includes(sym) ? "is" : "is not");
