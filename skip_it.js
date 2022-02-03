@@ -7,3 +7,15 @@
 
 // Output:
 // [2, 3, 1, 2, 2, 1, 5, 2, 2]
+
+function skipIt(arr) {
+  let i = 0;
+  let newArr = [];
+  while (i < arr.length) {
+    newArr.push(arr[i]);
+    i += arr[i];
+  }
+  return newArr;
+}
+
+console.log(skipIt([2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]));
