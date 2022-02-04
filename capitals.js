@@ -2,3 +2,14 @@
 
 // Input: “hello, how are your porcupines today?”
 // Output: “hElLo, HoW ArE YoUr pOrCuPiNeS ToDaY?”
+
+let str = "hello, how are your porcupines today?";
+let arr = str.split(" ");
+
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+}
+
+let str2 = arr.join(" ");
+
+console.log(str2);
