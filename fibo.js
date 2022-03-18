@@ -4,3 +4,18 @@
 
 // Input: 9
 // Output: 21 (as this is the 9th number of the Fibonacci Sequence)
+
+function fibo(num) {
+  let fib = [0, 1];
+  if (num <= 2) {
+    return fib[num - 1];
+  }
+  (num - 2).do;
+  let i = fib.length;
+  let arr1 = fib[i - 1];
+  let arr2 = fib[i - 2];
+  let arr3 = arr1 + arr2;
+  fib.push(arr3);
+  return fib, fib[num - 1];
+}
+console.log(fibo(200));
