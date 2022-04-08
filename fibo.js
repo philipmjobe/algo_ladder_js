@@ -18,4 +18,4 @@ function fibo(num) {
   fib.push(arr3);
   return fib, fib[num - 1];
 }
-console.log(fibo(200));
+fibo(200);
