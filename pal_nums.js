@@ -16,7 +16,7 @@ function largestPalindrome() {
 }
 
 function isPalin(i) {
-  return i.toString() == i.toString().split("").reverse().join("");
+  return i.toString() === i.toString().split("").reverse().join("");
 }
 
 console.log(largestPalindrome());
