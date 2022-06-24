@@ -9,7 +9,7 @@ function mesh(arr) {
   while (i < arr.length) {
     let j = 0;
     while (j < arr.length) {
-      if (i != j) {
+      if (i !== j) {
         pairs.push(arr[i] + arr[j]);
       }
       j++;
