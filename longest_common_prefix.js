@@ -14,3 +14,15 @@
 // Note:
 
 // All given inputs are in lowercase letters a-z.
+
+function common(str1, str2) {
+  let common = "";
+  let i = 0;
+  while ((str1[i] = str2[i])) {
+    common += str1[i];
+    i++;
+  }
+  return common;
+}
+
+console.log(common(["flower", "flow"]));
