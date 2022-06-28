@@ -26,4 +26,4 @@ function mostCommon(str) {
   mostCommonLetter;
 }
 
-console.log(mostCommon(“peter piper picked a peck of pickled peppers”))
+// console.log(mostCommon(“peter piper picked a peck of pickled peppers”))
